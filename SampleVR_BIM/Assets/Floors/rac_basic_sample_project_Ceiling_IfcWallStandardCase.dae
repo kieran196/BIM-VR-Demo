@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-04T04:33:19</created>
+    <modified>2019-06-04T04:33:19</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Finishes_-_Exterior_-_Timber_Cladding-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.501961 0.25098 0.12549 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Wood_-_Stud_Layer-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.498039 0.498039 0.498039 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Structure_-_Timber_Insulated_Panel_-_OSB-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.705882 0.501961 0.294118 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Structure_-_Timber_Insulated_Panel_-_Insulation-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.705882 0.501961 0.294118 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Finishes_-_Interior_-_Plasterboard-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.976471 0.976471 0.976471 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Finishes_-_Exterior_-_Timber_Cladding">
+      <instance_effect url="#Finishes_-_Exterior_-_Timber_Cladding-fx"/>
+    </material>
+    <material id="Wood_-_Stud_Layer">
+      <instance_effect url="#Wood_-_Stud_Layer-fx"/>
+    </material>
+    <material id="Structure_-_Timber_Insulated_Panel_-_OSB">
+      <instance_effect url="#Structure_-_Timber_Insulated_Panel_-_OSB-fx"/>
+    </material>
+    <material id="Structure_-_Timber_Insulated_Panel_-_Insulation">
+      <instance_effect url="#Structure_-_Timber_Insulated_Panel_-_Insulation-fx"/>
+    </material>
+    <material id="Finishes_-_Interior_-_Plasterboard">
+      <instance_effect url="#Finishes_-_Interior_-_Plasterboard-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-100018-layerset-100025">
+      <mesh>
+        <source id="representation-100018-layerset-100025-positions">
+          <float_array id="representation-100018-layerset-100025-positions-array" count="372">6.0 0.101 0.0 6.0 0.101 0.55 0.0 0.101 0.55 0.0 0.101 0.0 6.0 0.088 0.0 6.0 0.101 0.0 6.0 0.101 0.55 6.0 0.088 0.55 0.0 0.101 0.0 0.0 0.088 0.0 0.0 0.088 0.55 0.0 0.101 0.55 6.0 0.088 0.0 6.0 0.101 0.0 0.0 0.088 0.0 0.0 0.101 0.0 6.0 0.088 0.55 6.0 0.101 0.55 0.0 0.088 0.55 0.0 0.101 0.55 0.0 0.088 0.0 0.0 0.088 0.55 6.0 0.088 0.55 6.0 0.088 0.0 6.0 0.073 0.0 6.0 0.073 0.55 0.0 0.073 0.0 6.0 0.073 0.0 0.0 0.088 0.0 6.0 0.088 0.0 0.0 0.088 0.0 0.0 0.088 0.55 6.0 0.088 0.55 6.0 0.088 0.0 0.0 0.073 0.55 6.0 0.073 0.55 0.0 0.088 0.55 6.0 0.088 0.55 0.0 0.073 0.0 6.0 0.073 0.0 0.0 0.073 0.55 6.0 0.073 0.55 0.0 0.073 0.0 0.0 0.073 0.55 6.0 -0.039 0.0 6.0 -0.039 0.55 0.0 -0.039 0.0 6.0 0.073 0.0 6.0 -0.039 0.0 0.0 0.073 0.0 6.0 0.073 0.0 0.0 0.073 0.55 6.0 0.073 0.55 0.0 -0.039 0.55 6.0 0.073 0.55 6.0 -0.039 0.55 0.0 -0.039 0.0 6.0 -0.039 0.0 0.0 -0.039 0.55 6.0 -0.039 0.55 0.0 0.073 0.0 0.0 -0.039 0.0 0.0 -0.039 0.55 0.0 0.073 0.55 6.0 -0.054 0.0 6.0 -0.054 0.55 6.0 -0.039 0.0 6.0 -0.054 0.0 0.0 -0.054 0.0 0.0 -0.039 0.0 6.0 -0.039 0.0 0.0 -0.039 0.55 6.0 -0.039 0.55 6.0 -0.039 0.55 6.0 -0.054 0.55 0.0 -0.054 0.55 0.0 -0.054 0.0 6.0 -0.054 0.0 0.0 -0.054 0.55 6.0 -0.054 0.55 0.0 -0.039 0.0 0.0 -0.054 0.0 0.0 -0.054 0.55 0.0 -0.039 0.55 6.0 -0.079 0.0 6.0 -0.079 0.55 6.0 -0.054 0.0 6.0 -0.079 0.0 0.0 -0.079 0.0 0.0 -0.054 0.0 6.0 -0.054 0.0 0.0 -0.054 0.55 6.0 -0.054 0.55 6.0 -0.054 0.55 6.0 -0.079 0.55 0.0 -0.079 0.55 0.0 -0.079 0.0 6.0 -0.079 0.0 0.0 -0.079 0.55 6.0 -0.079 0.55 0.0 -0.054 0.0 0.0 -0.079 0.0 0.0 -0.079 0.55 0.0 -0.054 0.55 6.0 -0.101 0.0 6.0 -0.101 0.55 6.0 -0.079 0.0 6.0 -0.101 0.0 0.0 -0.101 0.0 0.0 -0.079 0.0 6.0 -0.079 0.0 0.0 -0.079 0.55 6.0 -0.079 0.55 6.0 -0.079 0.55 6.0 -0.101 0.55 0.0 -0.101 0.55 0.0 -0.101 0.0 0.0 -0.101 0.55 6.0 -0.101 0.55 6.0 -0.101 0.0 0.0 -0.079 0.0 0.0 -0.101 0.0 0.0 -0.101 0.55 0.0 -0.079 0.55</float_array>
+          <technique_common>
+            <accessor source="#representation-100018-layerset-100025-positions-array" count="124" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-100018-layerset-100025-normals">
+          <float_array id="representation-100018-layerset-100025-normals-array" count="372">0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-100018-layerset-100025-normals-array" count="124" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-100018-layerset-100025-texcoord-0">
+          <float_array id="representation-100018-layerset-100025-texcoord-0-array" count="248">-6.0 0.0 -6.0 0.55 0.0 0.55 0.0 0.0 0.088 0.0 0.101 0.0 0.101 0.55 0.088 0.55 -0.101 0.0 -0.088 0.0 -0.088 0.55 -0.101 0.55 -6.0 0.088 -6.0 0.101 0.0 0.088 0.0 0.101 6.0 0.088 6.0 0.101 0.0 0.088 0.0 0.101 0.0 0.0 0.0 0.55 6.0 0.55 6.0 0.0 0.073 0.0 0.073 0.55 0.0 0.073 -6.0 0.073 0.0 0.088 -6.0 0.088 0.0 0.0 0.0 0.55 -6.0 0.55 -6.0 0.0 0.0 0.073 6.0 0.073 0.0 0.088 6.0 0.088 0.0 0.0 6.0 0.0 0.0 0.55 6.0 0.55 -0.073 0.0 -0.073 0.55 -0.039 0.0 -0.039 0.55 0.0 -0.039 -6.0 0.073 -6.0 -0.039 0.0 0.0 -6.0 0.0 0.0 0.55 -6.0 0.55 0.0 -0.039 6.0 0.073 6.0 -0.039 0.0 0.0 6.0 0.0 0.0 0.55 6.0 0.55 -0.073 0.0 0.039 0.0 0.039 0.55 -0.073 0.55 -0.054 0.0 -0.054 0.55 -6.0 -0.039 -6.0 -0.054 0.0 -0.054 0.0 0.0 -6.0 0.0 0.0 0.55 -6.0 0.55 6.0 -0.039 6.0 -0.054 0.0 -0.054 0.0 0.0 6.0 0.0 0.0 0.55 6.0 0.55 0.039 0.0 0.054 0.0 0.054 0.55 0.039 0.55 -0.079 0.0 -0.079 0.55 -6.0 -0.054 -6.0 -0.079 0.0 -0.079 0.0 0.0 -6.0 0.0 0.0 0.55 -6.0 0.55 6.0 -0.054 6.0 -0.079 0.0 -0.079 0.0 0.0 6.0 0.0 0.0 0.55 6.0 0.55 0.054 0.0 0.079 0.0 0.079 0.55 0.054 0.55 -0.101 0.0 -0.101 0.55 -6.0 -0.079 -6.0 -0.101 0.0 -0.101 0.0 0.0 -6.0 0.0 0.0 0.55 -6.0 0.55 6.0 -0.079 6.0 -0.101 0.0 -0.101 0.0 0.0 0.0 0.55 6.0 0.55 6.0 0.0 0.079 0.0 0.101 0.0 0.101 0.55 0.079 0.55</float_array>
+          <technique_common>
+            <accessor source="#representation-100018-layerset-100025-texcoord-0-array" count="124" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-100018-layerset-100025-texcoord-1">
+          <float_array id="representation-100018-layerset-100025-texcoord-1-array" count="248">0.392632 0.0 0.314106 0.0 0.314106 0.916031 0.392632 0.916031 0.00185608 1.0 7.4463e-09 1.0 0.0 0.916031 0.00185608 0.916031 0.0488291 1.0 0.046973 1.0 0.046973 0.916031 0.0488291 0.916031 0.998144 0.0 0.996288 0.0 0.998144 0.91603 0.996288 0.91603 0.998144 0.0 1.0 0.0 0.998144 0.91603 1.0 0.91603 0.785265 0.916031 0.863791 0.916031 0.863791 0.0 0.785264 0.0 0.00399771 1.0 0.0039977 0.916031 0.942317 0.91603 0.992004 0.0 0.989863 0.91603 0.989862 0.0 0.314106 0.916031 0.235579 0.916031 0.235579 0.0 0.314106 0.0 0.974299 0.91603 0.994146 0.0 0.996288 0.91603 0.996287 0.0 0.706738 0.916031 0.706738 0.0 0.785264 0.916031 0.785264 0.0 0.0448314 1.0 0.0448314 0.916031 0.0199885 1.0 0.0199885 0.916031 0.987721 0.91603 0.942317 0.0 0.958308 0.0 0.235579 0.916031 0.235579 0.0 0.157053 0.916031 0.157053 0.0 0.994146 0.91603 0.974299 0.0 0.958308 0.0 0.628212 0.916031 0.628212 0.0 0.706738 0.916031 0.706738 0.0 0.0448314 1.0 0.0288406 1.0 0.0288406 0.916031 0.0448314 0.916031 0.0221301 1.0 0.0221301 0.916031 0.987721 0.0 0.989862 0.0 0.974299 0.91603 0.942317 0.916031 0.942317 0.0 0.863791 0.916031 0.863791 0.0 0.994146 0.0 0.992004 0.0 0.981438 0.91603 0.549685 0.916031 0.549685 0.0 0.628211 0.916031 0.628211 0.0 0.0576812 1.0 0.0555396 1.0 0.0555396 0.916031 0.0576812 0.916031 0.0256995 1.0 0.0256995 0.916031 0.974299 0.0 0.977869 0.0 0.981438 0.91603 0.157053 0.916031 0.157053 0.0 0.0785266 0.916031 0.0785264 0.0 0.981438 0.0 0.977869 0.0 0.987721 0.91603 0.471159 0.916031 0.471159 0.0 0.549685 0.916031 0.549685 0.0 0.0523985 1.0 0.0488291 1.0 0.0488291 0.916031 0.0523985 0.916031 0.0288406 1.0 0.0288406 0.916031 0.981438 0.0 0.984579 0.0 0.984579 0.91603 0.0785264 0.916031 0.0785263 0.0 1.44671e-07 0.916031 0.0 0.0 0.98772 0.0 0.984579 0.0 0.98458 0.91603 0.392632 0.916031 0.471159 0.916031 0.471159 0.0 0.392632 0.0 0.0555396 1.0 0.0523985 1.0 0.0523985 0.916031 0.0555396 0.916031</float_array>
+          <technique_common>
+            <accessor source="#representation-100018-layerset-100025-texcoord-1-array" count="124" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-100018-layerset-100025-vertices">
+          <input semantic="POSITION" source="#representation-100018-layerset-100025-positions"/>
+        </vertices>
+        <triangles material="Finishes_-_Exterior_-_Timber_Cladding" count="12">
+          <input semantic="VERTEX" source="#representation-100018-layerset-100025-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-100018-layerset-100025-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-1" offset="0" set="1"/>
+          <p>1 0 3 2 1 3 6 7 5 7 4 5 10 11 9 11 8 9 12 14 13 14 15 13 17 18 16 17 19 18 23 21 20 23 22 21 </p>
+        </triangles>
+        <triangles material="Wood_-_Stud_Layer" count="12">
+          <input semantic="VERTEX" source="#representation-100018-layerset-100025-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-100018-layerset-100025-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-1" offset="0" set="1"/>
+          <p>7 25 4 25 24 4 27 26 29 26 28 29 30 31 33 31 32 33 37 34 35 37 36 34 39 40 38 39 41 40 43 10 42 10 9 42 </p>
+        </triangles>
+        <triangles material="Structure_-_Timber_Insulated_Panel_-_OSB" count="24">
+          <input semantic="VERTEX" source="#representation-100018-layerset-100025-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-100018-layerset-100025-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-1" offset="0" set="1"/>
+          <p>25 45 24 45 44 24 46 26 47 48 46 47 49 51 50 51 52 50 54 34 53 54 53 55 57 58 56 57 59 58 62 63 61 63 60 61 65 85 64 85 84 64 87 88 86 88 68 86 89 91 90 91 92 90 93 95 94 93 75 95 97 98 96 97 99 98 102 103 101 103 100 101 </p>
+        </triangles>
+        <triangles material="Structure_-_Timber_Insulated_Panel_-_Insulation" count="12">
+          <input semantic="VERTEX" source="#representation-100018-layerset-100025-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-100018-layerset-100025-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-1" offset="0" set="1"/>
+          <p>45 65 44 65 64 44 67 68 66 68 46 66 69 71 70 71 72 70 73 75 74 73 53 75 77 78 76 77 79 78 82 83 81 83 80 81 </p>
+        </triangles>
+        <triangles material="Finishes_-_Interior_-_Plasterboard" count="12">
+          <input semantic="VERTEX" source="#representation-100018-layerset-100025-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-100018-layerset-100025-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-100018-layerset-100025-texcoord-1" offset="0" set="1"/>
+          <p>85 105 84 105 104 84 107 108 106 108 88 106 109 111 110 111 112 110 113 115 114 113 95 115 117 116 119 118 117 119 122 123 121 123 120 121 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="27lifGE4TF58A1JhY9194T" name="27lifGE4TF58A1JhY9194T" type="NODE">
+        <matrix sid="transform">0.798635 -0.601815 0.0 -4.97436 0.601815 0.798635 0.0 -26.7795 0.0 0.0 1.0 2.15 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-100018-layerset-100025">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Finishes_-_Exterior_-_Timber_Cladding" target="#Finishes_-_Exterior_-_Timber_Cladding"/>
+              <instance_material symbol="Wood_-_Stud_Layer" target="#Wood_-_Stud_Layer"/>
+              <instance_material symbol="Structure_-_Timber_Insulated_Panel_-_OSB" target="#Structure_-_Timber_Insulated_Panel_-_OSB"/>
+              <instance_material symbol="Structure_-_Timber_Insulated_Panel_-_Insulation" target="#Structure_-_Timber_Insulated_Panel_-_Insulation"/>
+              <instance_material symbol="Finishes_-_Interior_-_Plasterboard" target="#Finishes_-_Interior_-_Plasterboard"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>
